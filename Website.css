@@ -1,0 +1,92 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+li {
+  float: left;
+	border:thick;
+	border-color:#F7ECE1;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 90;
+  padding: 90;
+  overflow: hidden;
+	background-color:#725AC1;
+}
+body{
+	background-color: #F7ECE1;
+}
+li a {
+  display: block;
+  color: #F7ECE1;
+  background-color:#725AC1;
+  align:left;
+  padding: 2px 50px;
+  text-decoration: none;
+}
+
+/* li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} */
+
+li a:hover {
+  background-color:#242038;
+}
+
+.current {
+  background-color:#242038;
+}
+
+header{
+background-color:#242038;
+color:#CAC4CE;
+padding: 10px 10px;
+font-size: 30px;
+}
+
+.section1{
+  background-color:#AFA4FF;
+	color:#242038;
+	align:center;
+	font-size: 15px;
+		padding: 25px 15px;
+}
+
+.section2{
+	background-color:#AFA4FF;
+	color:#242038;
+	align:center;
+	font-size: 15px;
+		padding: 25px 15px;
+}
+
+.section3{
+	background-color:#AFA4FF;
+	color:#242038;
+	align:center;
+	font-size: 15px;
+	padding: 25px 15px;
+}
