@@ -1,3 +1,4 @@
+@import "Styles/Abstract/Variables for colours.CSS";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,11 +20,12 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+
 /*
 The class for the nav bar
 */
 .nav{
-
+	text-align: center;
 }
 /*
 Code for the list
@@ -40,16 +42,16 @@ ul {
   margin: 90;
   padding: 90;
   overflow: hidden;
-	background-color:#725AC1;
+	background-color:var(--white);
 }
 body{
 	background-color: #F7ECE1;
 }
 li a {
   display: block;
-  color: #F7ECE1;
-  background-color:#725AC1;
-  align:left;
+  color:var(--dark-brown-color);
+  background-color:var(--white);
+  align:center;
   padding: 2px 50px;
   text-decoration: none;
 }
@@ -65,18 +67,19 @@ li a {
 
 }
 li a:hover {
-  background-color:#242038;
+  background-color:var(--Deep-brown-color);
 }
 
 .current {
-  background-color:#242038;
+  background-color:var(  --light-brown-color);
 }
 
 header{
-background-color:#242038;
-color:#CAC4CE;
+background-color:var(--white);
+color:var(--dark-brown-color);
 padding: 10px 10px;
 font-size: 30px;
+text-align: center;
 }
 .header{
 	/* max-width:100%; */
@@ -85,9 +88,9 @@ font-size: 30px;
 /*This is the class for the quote and it controls the colour font size margin distance and font family
 */
 .quote{
-	color: 0;
+	color: var( --dark-brown-color);
 	font-size: 40px;
-	margin-top: 11%;
+	margin-top: 2%;
 font-family: "Times New Roman";
 text-align: center;
 }
