@@ -51,7 +51,9 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 } */
+.quote{
 
+}
 li a:hover {
   background-color:#242038;
 }
@@ -70,32 +72,54 @@ font-size: 30px;
 	/* max-width:100%; */
 
 }
-.section1{
-  background-color:#AFA4FF;
+/*This is the class for the quote and it controls the colour font size margin distance and font family
+*/
+.quote{
+	color: 0;
+	font-size: 40px;
+	margin-top: 11%;
+font-family: "Times New Roman";
+text-align: center;
+}
+
+.section1 a:hover{
 	color:#242038;
+	image:url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=astrology-astronomy-background-image-956981.jpg&fm=jpg);
+}
+.section1{
+  background-color: transparent;
+	color:#EDEFEC;
 	align:center;
-	font-size: 15px;
-		padding: 25px 15px;
+	font-size:  20px;
+		padding: 30px 15px;
 		max-width: 100%;
 		max-height: 100%;
+		margin-top: 120px;
 }
 
 .section2{
 	background-color:#AFA4FF;
 	color:#242038;
 	align:center;
-	font-size: 15px;
-		padding: 25px 15px;
+	font-size: 20px;
+		padding: 30px 15px;
 		max-width: 100%;
 		max-height: 100%;
+		margin-top: 120px;
 }
 
 .section3{
 	background-color:#AFA4FF;
 	color:#242038;
 	align:center;
-	font-size: 15px;
-	padding: 25px 15px;
+	font-size: 20px;
+	padding: 30px 15px;
 	max-width: 100%;
 	max-height: 100%;
+	margin-top: 120px;
 }
+/* #Main-page{
+	margin-left: 0;
+	margin-right: 0;
+	width:1903px;
+} */
