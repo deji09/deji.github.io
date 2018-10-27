@@ -18,11 +18,15 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
+.nav{
+opacity: 0.4;
+}
 li {
   float: left;
 	border:thick;
 	border-color:#F7ECE1;
-	opacity: 0.8;
 }
 
 
@@ -57,7 +61,6 @@ li a {
 }
 li a:hover {
   background-color:#242038;
-	opacity: 0.8;
 }
 
 .current {
