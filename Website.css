@@ -4,45 +4,6 @@
 @import "Styles/layout/Navigation.css";
 
 
-/*
-The class for the nav bar
-*/
-/* .nav{
-} */
-/*
-Code for the list
-*/
-/* li {
-  float: left;
-	border:thick;
-	border-color:#F7ECE1;
-}
-
-
-ul {
-  list-style-type: none;
-  margin: 90;
-  padding: 90;
-  overflow: hidden;
-
-	background-color:var(--white);
-
-}
-body{
-	background-color: #F7ECE1;
-}
-li a {
-  display: block;
-  color:var(--dark-brown-color);
-  background-color:var(--white);
-  padding: 2px 70px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color:var(--Deep-brown-color);
-} */
-
 .current {
   background-color:var(  --light-brown-color);
 }
