@@ -1,0 +1,42 @@
+.current {
+  background-color:var(  --light-brown-color);
+}
+
+header{
+background-color:var(--white);
+color:var(--dark-brown-color);
+padding: 10px 10px;
+font-size: 30px;
+text-align: center;
+
+}
+
+.quote{
+	color: var( --dark-brown-color);
+	font-size: 38px;
+	margin-top: 2%;
+font-family: "Times New Roman";
+text-align: center;
+}
+
+
+.quote:hover{
+
+
+}
+
+
+.section1{
+	background-color: rgba(247,235,200,.7);
+	color:var(--Deep-brown-color);
+	align:center;
+	padding-bottom: 400px;
+	font-size:  20px;
+		max-width: 100%;
+		max-height: 100%;
+		margin-top: 120px;
+}
+
+.education{
+	color:  var(--dark-green-color);
+}

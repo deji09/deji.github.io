@@ -1,10 +1,11 @@
 
 
 .nav{
+
 }
 
 li {
-  float: left;
+  display: inline-block;
 	border:thick;
 	border-color:#F7ECE1;
 }
@@ -13,12 +14,9 @@ li {
 
 ul {
   list-style-type: none;
-  margin: 90;
-  padding: 90;
   overflow: hidden;
-
 	background-color:var(--white);
-
+  text-align:center;
 }
 
 li a {
