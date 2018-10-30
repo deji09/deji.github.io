@@ -2,9 +2,10 @@
 @import "Styles/Abstract/Variables for colours.CSS";
 @import "Styles/Base/Reset.css";
 @import "Styles/layout/Navigation.css";
+@import "Styles/Pages/Home.CSS";
 
 
-.current {
+/* .current {
   background-color:var(  --light-brown-color);
 }
 
@@ -41,4 +42,4 @@ text-align: center;
 
 .education{
 	color:  var(--dark-green-color);
-}
+} */
