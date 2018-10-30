@@ -20,9 +20,8 @@ text-align: center;
 }
 
 
-.quote:hover{
-
-
+.learning:hover{
+  color: var(--white);
 }
 
 
@@ -37,6 +36,6 @@ text-align: center;
 		margin-top: 120px;
 }
 
-.education{
+.learning{
 	color:  var(--dark-green-color);
 }
