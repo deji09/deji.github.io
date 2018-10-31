@@ -39,3 +39,8 @@ text-align: center;
 .learning{
 	color:  var(--dark-green-color);
 }
+
+
+footer{
+background-color:var( --lighter-brown-color);
+}
