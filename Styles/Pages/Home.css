@@ -3,20 +3,22 @@
 }
 
 header{
-background-color:var(--white);
+ background-color:var(--white);
 color:var(--dark-brown-color);
 padding: 10px 10px;
 font-size: 30px;
 text-align: center;
-
+font-family: 'Playfair Display SC', serif;
 }
 
 .quote{
 	color: var( --dark-brown-color);
 	font-size: 38px;
 	margin-top: 2%;
-font-family: "Times New Roman";
-text-align: center;
+  font-family: "Times New Roman";
+  text-align: center;
+  padding-left: 17%;
+  padding-right: 17%;
 }
 
 
@@ -34,13 +36,22 @@ text-align: center;
 		max-width: 100%;
 		max-height: 100%;
 		margin-top: 120px;
+    margin-bottom:140px;
 }
 
 .learning{
 	color:  var(--dark-green-color);
 }
 
-
 footer{
-background-color:var( --lighter-brown-color);
+ background-color:var(--white);
+height:70px;
+ margin-top: 150px;
 }
+
+.Deji{
+  color:var(--dark-brown-color);
+  margin-top:90px;
+}
+
+.icons
