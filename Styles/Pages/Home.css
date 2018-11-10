@@ -1,6 +1,4 @@
-.current {
-  background-color:var(  --light-brown-color);
-}
+
 
 header{
  background-color:var(--white);
@@ -9,16 +7,19 @@ padding: 10px 10px;
 font-size: 30px;
 text-align: center;
 font-family: 'Playfair Display SC', serif;
+
 }
 
 .quote{
 	color: var( --dark-brown-color);
-	font-size: 38px;
-	margin-top: 2%;
+	font-size: 43px;
+	margin-top: 100px;
   font-family: "Times New Roman";
   text-align: center;
-  padding-left: 17%;
-  padding-right: 17%;
+  padding-left: 10%;
+  padding-right: 10%;
+position: inherit;
+	font-family: 'Playfair Display SC', serif;
 }
 
 
@@ -28,15 +29,16 @@ font-family: 'Playfair Display SC', serif;
 
 
 .section1{
-	background-color: rgba(247,235,200,.7);
-	color:var(--Deep-brown-color);
-	align:center;
-	padding-bottom: 400px;
-	font-size:  20px;
-		max-width: 100%;
-		max-height: 100%;
-		margin-top: 120px;
-    margin-bottom:140px;
+	color:var(--dark-brown-color);
+  background-color: rgba(244,241,237,0.79);
+	text-align:center;
+	padding-bottom: 10px;
+	font-size:  30px;
+	max-width: 100%;
+  margin-left:4%;
+  margin-right:4%;
+	margin-top: 30px;
+  margin-bottom:10px;
 }
 
 .learning{
@@ -45,13 +47,25 @@ font-family: 'Playfair Display SC', serif;
 
 footer{
  background-color:var(--white);
-height:70px;
- margin-top: 150px;
+height:130px;
+
+position: inherit;
+text-align: center;
 }
 
 .Deji{
   color:var(--dark-brown-color);
-  margin-top:90px;
+  margin-top:300px;
 }
 
-.icons
+.aboutme{
+font-size:  50px;
+}
+
+.skills{
+  margin-top: 30px;
+}
+
+body{
+  height: 900px;
+}
