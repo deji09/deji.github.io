@@ -1,0 +1,38 @@
+
+/* This is the class for the text above the early life image */
+.section2{
+	color:var(--dark-brown-color);
+	text-align:center;
+	padding-bottom: 10px;
+	font-size:  25px;
+	margin-top: 30px;
+  margin-bottom:10px;
+}
+img.earlylife{
+  border-radius: 50%;
+}
+
+
+.current-life{
+margin-top: 30px;
+
+}
+
+
+.section3{
+  color:var(--dark-brown-color);
+	text-align:center;
+	padding-bottom: 10px;
+	font-size:  25px;
+}
+
+img.schoollife{
+
+  border-radius: 50%;
+  margin-left: 10px;
+
+
+}
+.school-life{
+  margin-bottom:0px;
+}

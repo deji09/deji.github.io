@@ -2,3 +2,5 @@
 @import "Styles/Base/Reset.css";
 @import "Styles/layout/Navigation.css";
 @import "Styles/Pages/Home.CSS";
+@import "Styles/Abstract/Media import.css";
+@import "Styles/pages/About.css"; 

@@ -23,14 +23,9 @@ position: inherit;
 }
 
 
-.learning:hover{
-  color: var(--white);
-}
-
-
 .section1{
 	color:var(--dark-brown-color);
-  background-color: rgba(244,241,237,0.79);
+  background-color: rgba(244,241,237,0.9);
 	text-align:center;
 	padding-bottom: 10px;
 	font-size:  30px;
@@ -45,13 +40,23 @@ position: inherit;
 	color:  var(--dark-green-color);
 }
 
+.Success{
+  color: var(--dark-green-color);
+}
+
+.sacrifice{
+color: var(--dark-green-color);
+
+}
+
+
 footer{
  background-color:var(--white);
 height:130px;
 
 position: inherit;
 text-align: center;
-}
+} 
 
 .Deji{
   color:var(--dark-brown-color);
