@@ -3,10 +3,8 @@
 li {
 	border-color:#F7ECE1;
   display:inline;
-  /* float:left; */
+
 }
-
-
 
 
 ul {
@@ -16,14 +14,13 @@ ul {
   overflow: hidden;
 	background-color:var(--white);
   text-align:center;
-	/* margin-left: 23%; */
+
 
 }
 
 li a {
   display:inline-block;
   color:var(--dark-brown-color);
-  /* background-color:var(--white); */
   padding: 1px;
   text-decoration: none;
 	font-size:15px;
