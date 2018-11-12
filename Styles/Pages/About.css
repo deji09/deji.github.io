@@ -183,3 +183,28 @@ text-align: left;
   from {opacity: .4}
   to {opacity: 1}
 }
+/* These are the dots for the slide */
+#dot1:hover,#dot2:hover, #dot3:hover{
+background-color: var(--Deep-brown-color);
+}
+#dot1{
+background-color: var(--lighter-brown-color);
+}
+#dot2{
+background-color: var(--creamy-brown-color);
+}
+#dot3{
+	background-color:var(--dark-creamy-brown-color);
+
+}
+
+
+
+
+@media (max-width:900px) {
+	.slideshow-container {
+		display: none;
+	}
+
+
+}
