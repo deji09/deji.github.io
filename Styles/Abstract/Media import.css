@@ -24,4 +24,13 @@
 	.currentlife{
     margin-left: 110px;
 	}
+  .nav{
+    display:none;
+  }
+}
+
+@media (min-width:800px) {
+  .dropdown{
+  }
+
 }

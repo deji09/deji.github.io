@@ -17,6 +17,7 @@ title: "About"
   <link href="dist/hamburgers.css" rel="stylesheet">
   <link rel="stylesheet" href="Variables for colours.css">
   <link rel="stylesheet" href="Navigation.css">
+  <link rel="stylesheet" href="Mobile nav.css">
   <link rel="stylesheet" href="Website.css">
   <title>Course workwebsite</title>
 </head>
@@ -40,7 +41,7 @@ title: "About"
   <div class="navbackground">
 
 
-<!-- This is the nav bar -->
+<!--This is the nav bar for computer screens-->
     <nav class="nav">
       <ul class="grid-container">
         <li class=" grid-10 prefix-25 mobile-grid-20 tablet-grid-20"><a href="index.html">Home</a></li>
@@ -51,6 +52,19 @@ title: "About"
       </ul>
     </nav>
   </div>
+
+<!-- This is the navbar for mobile. -->
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="Projects Page.html">Project</a>
+    <a href="CV Page.html">CV</a>
+    <a href="Contactme.html">Contact Me </a>
+    <a href="About me">About me</a>
+  </div>
+</div>
+
 
   <div class="grid-container grid-parent">
     <div class=" grid-25 mobile-grid-100 tablet-grid-80 tablet-push-10">
@@ -160,5 +174,28 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+}
+</script>
+
+<script>
+  /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
 }
 </script>
