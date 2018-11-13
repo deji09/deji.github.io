@@ -1,14 +1,36 @@
 
-
+/* This is the media import for the text on the home page */
 @media only screen and (max-width: 768px) {
     .quote {
             font-size: 30px;
     }
 }
 
-
+/* This is the media import for the quote on the main page*/
 @media only screen and (max-width:411px) {
     .quote {
-            font-size: 10px;
+            font-size: 28px;
     }
+}
+
+/* These are the media imports for the about page */
+@media (max-width:900px) {
+	.slideshow-container {
+		display: none;
+	}
+	.map{
+		display:none;
+	}
+	.currentlife{
+    margin-left: 110px;
+	}
+  .nav{
+    display:none;
+  }
+}
+
+@media (min-width:800px) {
+  .dropdown{
+  }
+
 }
