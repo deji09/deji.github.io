@@ -1,5 +1,6 @@
-
+@import "Styles/Abstract/Variables for colours.CSS";
 @import "Styles/Base/Reset.css";
+@import "Styles/layout/Navigation.css";
 @import "Styles/layout/Mobile nav.css";
 @import "Styles/Pages/Home.CSS";
 @import "Styles/pages/About.css";
