@@ -1,6 +1,5 @@
-
-
 li {
+
 	border-color:#F7ECE1;
   display:inline;
 
@@ -84,31 +83,5 @@ background-color:var(--Deep-brown-color);
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
