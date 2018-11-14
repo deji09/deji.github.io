@@ -1,4 +1,3 @@
-
 /* This is the class for the text above the early life image */
 .section2{
 	color:var(--dark-brown-color);
@@ -204,9 +203,6 @@ background-color: var(--creamy-brown-color);
 	background-color:var(--dark-creamy-brown-color);
 
 }
-
-
-
 
 .journey{
 	text-align: center;
