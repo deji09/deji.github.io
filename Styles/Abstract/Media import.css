@@ -14,16 +14,14 @@
 }
 
 /* These are the media imports for the about page images mobile */
-@media (max-width:900px) {
+@media (max-width:1100px) {
 	.slideshow-container {
 		display: none;
 	}
 	.map{
 		display:none;
 	}
-	.currentlife{
-    margin-left: 50px;
-	}
+
   .nav{
     display:none;
   }
@@ -43,9 +41,9 @@
   margin-right: 130px;
 }
 
+
+
 }
 @media (min-width:1000px){
-  .currentlife{
 
-	}
 }
