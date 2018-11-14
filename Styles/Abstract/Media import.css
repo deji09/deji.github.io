@@ -48,10 +48,22 @@ margin-left:140px;
 }
 .background1{
   margin-top: 300px;
+
+}
+.dropdown{
+margin-left: 330px;
 }
 }
 @media (min-width:1010px){
 .currentlife{
 margin-left:260px;
 }
+.dropdown{
+margin-left: 480px;
+}
+}
+@media (max-width:500px){
+  .dropdown{
+  margin-left: 40%;
+  }
 }
