@@ -10,7 +10,7 @@
 /* This is the class for the early life paragraph*/
 .early{
 	color:var(--dark-brown-color);
-  background-color: rgba(244,241,237,0.8);
+
 	text-align:center;
 	padding-bottom: 10px;
 	font-size:  20px;
@@ -46,7 +46,7 @@ img.schoollife{
 
 .mid{
 	color:var(--dark-brown-color);
-  background-color: rgba(244,241,237,0.8);
+
 	text-align:center;
 	padding-bottom: 10px;
 	font-size:  20px;
@@ -69,7 +69,7 @@ text-align: left;
 /* this is the title of the current life section*/
 .currentl{
 	color:var(--dark-brown-color);
-  background-color: rgba(244,241,237,0.8);
+
 	text-align:center;
 	padding-bottom: 10px;
 	font-size:  20px;
@@ -94,9 +94,9 @@ img.currentlife{
 /* This section is copied from */
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-margin-left: 290px;
+max-width: 1000px;
+position: relative;
+margin-left: 83px;
 }
 
 /* Hide the images by default */
@@ -141,9 +141,7 @@ margin-left: 290px;
 	font-size:  25px;
 	margin-top: 30px;
   margin-bottom:10px;
-	background-color: rgba(244,241,237,0.9);
-	margin-right: 420px;
-	margin-left: 420px;
+
 }
 
 /* Number text (1/3 etc) */
@@ -215,4 +213,12 @@ background-color: var(--creamy-brown-color);
 
 .Worldmap{
 	margin-left:25px;
+}
+
+.background1{
+	background-color: rgba(244,241,237,0.9);
+	margin-left: 140px;
+	margin-right: 130px;
+	height:2050px;
+	margin-top: 50px
 }

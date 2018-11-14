@@ -29,9 +29,12 @@
   }
 }
 
-@media (min-width:800px) {
+@media (min-width:1100px) {
   .dropdown{
     display: none;
   }
-
+  .navbackground1{
+    margin-left:0;
+    margin-right:0; 
+  }
 }
