@@ -222,3 +222,7 @@ background-color: var(--creamy-brown-color);
 .dropdown{
 margin-left: 330px;
 }
+
+.div{
+	background-color: var(--dark-brown-color);
+}
