@@ -13,25 +13,57 @@
     }
 }
 
-/* These are the media imports for the about page */
-@media (max-width:900px) {
+/* These are the media imports for the about page images mobile */
+@media (max-width:1100px) {
 	.slideshow-container {
 		display: none;
 	}
 	.map{
 		display:none;
 	}
-	.currentlife{
-    margin-left: 110px;
-	}
+
   .nav{
     display:none;
   }
 }
+/* This is the removal of the nav bar for the about Page */
 
-@media (min-width:800px) {
+@media (min-width:1100px) {
   .dropdown{
     display: none;
   }
+}
 
+/* This is the media import for the about page mobile scaling */
+@media (min-width:600px){
+.background1{
+  margin-left: 140px;
+  margin-right: 130px;
+}
+}
+
+@media (max-width:800px){
+.currentlife{
+margin-left:140px;
+}
+.background1{
+  margin-top: 300px;
+
+}
+.dropdown{
+margin-left: 330px;
+}
+}
+@media (min-width:1010px){
+.currentlife{
+margin-left:260px;
+}
+.dropdown{
+margin-left: 480px;
+}
+}
+@media (max-width:500px){
+  .dropdown{
+  margin-left: 40%;
+  }
 }
