@@ -83,7 +83,7 @@ text-align: left;
 
 .currentlife{
   border-radius: 50%;
-	
+
 
 }
 
@@ -218,4 +218,7 @@ background-color: var(--creamy-brown-color);
 	background-color: rgba(244,241,237,0.9);
 	height:2050px;
 	margin-top: 50px
+}
+.dropdown{
+margin-left: 330px;
 }

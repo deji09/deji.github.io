@@ -40,10 +40,18 @@
   margin-left: 140px;
   margin-right: 130px;
 }
-
-
-
 }
-@media (min-width:1000px){
 
+@media (max-width:800px){
+.currentlife{
+margin-left:140px;
+}
+.background1{
+  margin-top: 300px;
+}
+}
+@media (min-width:1010px){
+.currentlife{
+margin-left:260px;
+}
 }
