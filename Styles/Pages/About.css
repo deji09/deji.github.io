@@ -219,8 +219,10 @@ background-color: var(--creamy-brown-color);
 	height:2050px;
 	margin-top: 50px
 }
+.dropdown{
+margin-left: 330px;
+}
 
-
-.drop{
+.div{
 	background-color: var(--dark-brown-color);
 }
