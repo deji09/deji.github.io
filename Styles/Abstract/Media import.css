@@ -58,7 +58,12 @@
     margin-left: 260px;
   }
 }
-@media (min-width:1010px) {
+@media (max-width:1025px) {
+  .table {
+    background-color: var(--white);
+    margin-top: 10%;
+    
+  }
 
  }
 
