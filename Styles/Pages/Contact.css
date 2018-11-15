@@ -1,36 +1,32 @@
-
-
-.facebookicon{
-position: absolute;
-padding-bottom: 10%;
-margin-left: 55%;
+.facebookicon {
+  position: absolute;
+  padding-bottom: 10%;
+  margin-left: 55%;
 }
 
-
-
-.facecontact{
-  margin-top:4%;
+.facecontact {
+  margin-top: 4%;
   background-color: var(--white);
 }
-.Facebook{
+
+.Facebook {
   position: absolute;
   color: var(--dark-brown-color);
   margin-left: 22%
 }
 
-p{
+p {
   font-size: 20px;
 }
 
-.table{
+.table {
   background-color: var(--white);
   margin-top: 10%;
 }
 
-h2{
+h2 {
   text-align: center;
-  font-size:170%;
+  font-size: 170%;
   margin-top: 4%;
   color: var(--dark-brown-color);
-
 }
