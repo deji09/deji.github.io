@@ -22,6 +22,7 @@ title: "Contactme"
   <link rel="stylesheet" href="Styles/Pages/Home.css">
   <link rel="stylesheet" href="Styles/Pages/Contact.css">
   <link rel="stylesheet" href="Styles/Layout/Navigation.css">
+  <link rel="stylesheet" href="Styles/Pages/About.css">
   <link rel="stylesheet" href="Styles/Abstract/Media import.css">
   <title>Course workwebsite</title>
 </head>
@@ -75,7 +76,7 @@ title: "Contactme"
   </div>
   <section class="table tablet-grid-100">
     <div class="contactlist tablet-grid-100">
-      <h2>Contact List</h2>
+      <h2 class="contact">Contact List</h2>
     </div>
     <div class="facecontact grid-container tablet-grid-100">
       <div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100">
@@ -133,5 +134,27 @@ title: "Contactme"
   <!--this is the link to the footer from jekyll-->
   {% include footer.html %}
 </body>
-
 </html>
+
+<script>
+  /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>

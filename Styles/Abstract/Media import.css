@@ -58,11 +58,15 @@
     margin-left: 260px;
   }
 }
+/* This adjust's several iteams on the contact me page for ipad */
 @media (max-width:1025px) {
   .table {
     background-color: var(--white);
     margin-top: 10%;
     padding-left: 7%;
+  }
+  .contact{
+    margin-right: 9%;
   }
   .facecontact {
     margin-top: 4%;
@@ -87,6 +91,12 @@
     margin-top: 4%;
     padding-bottom:1%;
   }
+ }
+ /* This ajust's the title of the contact me page on the iphone */
+ @media (max-width:500px) {
+   .contact{
+     margin-right:1%;
+   }
  }
 
 /* This shifts the current life image to the phone */
