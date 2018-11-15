@@ -198,9 +198,8 @@ background-color: var(--creamy-brown-color);
 }
 #dot3{
 	background-color:var(--dark-creamy-brown-color);
-
 }
-
+/*  This is the map section in css*/
 .journey{
 	text-align: center;
 	color:var(--dark-brown-color);
@@ -213,16 +212,13 @@ background-color: var(--creamy-brown-color);
 .Worldmap{
 	margin-left:25px;
 }
-
+/* This is the background section for the about page that is white */
 .background1{
 	background-color: rgba(244,241,237,0.9);
 	height:2050px;
 	margin-top: 50px
 }
-.dropdown{
-margin-left: 330px;
-}
-
-.div{
-	background-color: var(--dark-brown-color);
+/* this is the dropdown Menu  */
+.drop{
+	background-color: var(--dark-brown-color)
 }

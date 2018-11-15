@@ -55,3 +55,16 @@ margin-left:140px;
 margin-left:260px;
 }
 }
+
+@media (max-width:600px){
+
+.currentlife{
+  margin-left: 27%;
+}
+}
+@media (max-width:400px){
+
+.currentlife{
+  margin-left: 22%;
+}
+}

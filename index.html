@@ -61,6 +61,20 @@ title: "index"
       </ul>
     </nav>
   </div>
+
+  <!-- This is the navbar for mobile. -->
+  <div class="drop">
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Menu</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="Projects Page.html">Project</a>
+      <a href="CV Page.html">CV</a>
+      <a href="Contactme.html">Contact Me </a>
+      <a href="About me">About me</a>
+    </div>
+  </div>
+  </div>
   <!-- </div> -->
   <section class="quote">
     <div class=" grid-100 mobile-grid-100">
@@ -87,6 +101,26 @@ title: "index"
   <!--this is the link to the footer from jekyll-->
   {% include footer.html %}
 </body>
-
-
 </html>
+<script>
+  /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
