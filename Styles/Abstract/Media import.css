@@ -58,6 +58,9 @@
     margin-left: 260px;
   }
 }
+@media (min-width:1010px) {
+
+ }
 
 /* This shifts the current life image to the phone */
 @media (max-width:600px) {

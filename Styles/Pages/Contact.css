@@ -1,15 +1,39 @@
-.facebookicon {
+/* This is the ccs for all the icons that moves them down */
+.social {
   position: absolute;
-  padding-bottom: 10%;
-  margin-left: 55%;
+  padding-bottom: 1%;
+  margin-left: 50%;
 }
-
+/* This is the css for all the photo section that puts them in rows */
 .facecontact {
   margin-top: 4%;
-  background-color: var(--white);
+
+  padding-bottom:1%;
 }
 
+.snapcontact {
+  margin-top: 4%;
+  padding-bottom:1%;
+}
+
+.instacontact {
+  margin-top: 4%;
+  padding-bottom:1%;
+}
+/* This is the code for social media text so they display in rows */
 .Facebook {
+  position: absolute;
+  color: var(--dark-brown-color);
+  margin-left: 22%
+}
+
+.instagram {
+  position: absolute;
+  color: var(--dark-brown-color);
+  margin-left: 22%
+}
+
+.snapchat{
   position: absolute;
   color: var(--dark-brown-color);
   margin-left: 22%
@@ -19,14 +43,30 @@ p {
   font-size: 20px;
 }
 
+/* This css code displays the background for all the social media  */
 .table {
   background-color: var(--white);
   margin-top: 10%;
+  height: 900px;
+
 }
 
+/* This is the title for the code */
 h2 {
   text-align: center;
   font-size: 170%;
   margin-top: 4%;
   color: var(--dark-brown-color);
+}
+/* The css file for the footer */
+footer{
+ background-color:var(--white);
+height:130px;
+
+position: inherit;
+text-align: center;
+}
+.Deji{
+  color:var(--dark-brown-color);
+  margin-top:300px;
 }
