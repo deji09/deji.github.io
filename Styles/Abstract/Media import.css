@@ -41,7 +41,7 @@
   margin-right: 130px;
 }
 }
-
+/* This is the change to the current life image and the margin on the phone */
 @media (max-width:800px){
 .currentlife{
 margin-left:140px;
@@ -56,12 +56,14 @@ margin-left:260px;
 }
 }
 
+/* This shifts the current life image to the phone */
 @media (max-width:600px){
 
 .currentlife{
   margin-left: 27%;
 }
 }
+/* Shifting the current life image on the iphone screen */
 @media (max-width:400px){
 
 .currentlife{
@@ -69,7 +71,7 @@ margin-left:260px;
 }
 }
 
-
+/* This is the shifting of the current life images to the left on pc screen */
 @media (min-width:1200px){
 
 .currentlife{
