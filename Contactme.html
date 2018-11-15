@@ -1,17 +1,99 @@
+---
+title: "Contactme"
+---
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive-tablet.css">
-    <link rel="stylesheet" href="Website.css">
-    <title>Course workwebsite</title>
-  </head>
-  <body>
-    <nav>
-      <ul class="container">
-        <li ><a  href="Homepage.html">Home Page</a></li>
-        <li><a href="Project Page.html">Project Page</a></li>
-        <li><a href="CV Page.html">CV Page</a></li>
-        <li><a class="current" href="Contactme.html">Contact Me </a></li>
+
+<head>
+  <meta charset="utf-8">
+  <!--
+    Formatted for readability
+  -->
+  <meta
+    name="viewport"
+    content="
+      width=device-width,
+      initial-scale=1,
+      minimum-scale=1,
+      maximum-scale=1
+    "
+  />
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Cuprum|Domine|Fascinate+Inline|Lobster|Merriweather|Playfair+Display+SC|Righteous|Roboto+Condensed|Roboto+Slab|Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive-tablet.css">
+  <link rel="stylesheet" href="Styles/Base/Reset.css">
+  <link rel="stylesheet" href="Styles/Abstract/Variables for colours.CSS">
+  <link rel="stylesheet" href="Styles/Pages/Home.css">
+  <link rel="stylesheet" href="/Styles/Contactme.css">
+  <link rel="stylesheet" href="Styles/Layout/Navigation.css">
+  <link rel="stylesheet" href="Styles/Pages/About.css">
+  <link rel="stylesheet" href="Styles/Abstract/Media import.css">
+  <title>Course workwebsite</title>
+</head>
+
+<!-- This is the main body and it is used to configure the background colour for the main page of the site-->
+
+<body>
+  <style media="screen">
+    body {
+      background-image: url(https://images.pexels.com/photos/861339/pexels-photo-861339.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: inherit;
+      background-attachment: fixed;
+    }
+  </style>
+  <div class="container">
+    <div class="header">
+      <header>
+        <h1>Deji Shote </h1>
+      </header>
+    </div>
+  </div>
+  <div class="navbackground">
+
+
+<!--  This grid puts all the navbar into a container -->
+    <nav class="nav">
+      <ul class="grid-container">
+        <li class="grid-10 prefix-25 mobile-grid-20 tablet-grid-20"><a href="index.html">Home</a></li>
+        <li class="mobile-grid-20 grid-10 tablet-grid-20"><a href="Projects Page.html">Project</a></li>
+        <li class="mobile-grid-20 grid-10 tablet-grid-20"><a href="CV Page.html">CV</a></li>
+        <li class=" current mobile-grid-20 grid-10 tablet-grid-20"><a href="Contactme.html">Contact Me </a></li>
+        <li class="mobile-grid-20 grid-10 tablet-grid-20"><a href="About me">About me</a></li>
       </ul>
     </nav>
+  </div>
+
+  <!-- This is the navbar for mobile. -->
+  <div class="drop">
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Menu</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="Projects Page.html">Project</a>
+      <a href="CV Page.html">CV</a>
+      <a href="Contactme.html">Contact Me </a>
+      <a href="About me">About me</a>
+    </div>
+  </div>
+  </div>
+
+  <table>
+    <tr>
+      <th>Contact</th>
+
+    </tr>
+    <tr>
+      <td>facebook</td>
+      <td><a href="https://www.facebook.com/junior.shote"><img src="photos/facebook-logo-button (2).png" alt="facebook"></a></td>
+    </tr>
+    <tr>
+
+    </tr>
+  </table>
+
+
+
+
+</body>
+</html>
