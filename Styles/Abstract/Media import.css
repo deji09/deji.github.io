@@ -62,9 +62,31 @@
   .table {
     background-color: var(--white);
     margin-top: 10%;
-    
+    padding-left: 7%;
+  }
+  .facecontact {
+    margin-top: 4%;
+
+    padding-bottom:8%;
   }
 
+  .snapcontact {
+    margin-top: 4%;
+    padding-bottom:8%;
+  }
+
+  .instacontact {
+    margin-top: 4%;
+    padding-bottom:8%;
+  }
+  .redcontact{
+    margin-top: 4%;
+    padding-bottom:8%;
+  }
+  .discordcontact{
+    margin-top: 4%;
+    padding-bottom:1%;
+  }
  }
 
 /* This shifts the current life image to the phone */
