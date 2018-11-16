@@ -7,6 +7,12 @@ table, th, td {
         text-align: center;
 
 }
+th{
+  font-size: 20px;
+}
+.myskills{
+  align:center;
+}
 tr:nth-child(even) {background-color: var(--lighter-brown-color);}
 
 h2{
@@ -62,5 +68,5 @@ h4 {
 
 ul.myskills{
 
-  
+
 }
