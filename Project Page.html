@@ -75,9 +75,107 @@ title: "Project"
       </div>
     </div>
   </div>
-</body>
-<section class="Projects grid-100 mobile-grid-100 tablet-grid-100">
-<h2>My projects </h2>
-<p>My projects are something that I take pride in as a perfectionist I try to put in my best into my project fortunately sometimes that displays in my work, but other times my effort is not transferred into the quality my work. I like to display my previous projects for all to see due to the fact that it not only show's others where I started from, but also how far i have come </p>
+
+<section class="Projects grid-container grid-100 mobile-grid-100 tablet-grid-100">
+<h2 class="myprojects ">My projects </h2>
+<p class="pride">My projects are something that I take pride in as a perfectionist I try to put in my best into my project fortunately sometimes that displays in my work, but other times my effort is not transferred into the quality my work. I like to display my previous projects for all to see due to the fact that it not only show's others where I started from, but also how far i have come </p>
 </section>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="photos/Digglet.png" style="width:100%">
+    <div class="text">Digglet in eclipse</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="photos/Code for Digglet.png" style="width:100%">
+    <div class="text">Code for Digglet in Eclipse</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="photos/poster.png" style="width:100%">
+    <div class="text">Poster for creative interactions</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="photos/Dvd java.png" style="width:100%">
+    <div class="text">DVD Java Project</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles for the slides  -->
+<div style="text-align:center">
+  <span class="dot push-0" id="dot1" onclick="currentSlide(1)"></span>
+  <span class="dot push-0" id="dot2" onclick="currentSlide(2)"></span>
+  <span class="dot push-0" id="dot3" onclick="currentSlide(3)"></span>
+</div>
+{% include footer.html %}
+</body>
 </html>
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {
+      slideIndex = 1
+    }
+    if (n < 1) {
+      slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+  }
+</script>
+
+<script>
+  /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>

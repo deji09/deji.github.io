@@ -3,6 +3,7 @@
   position: absolute;
   padding-bottom: 1%;
   margin-left: 50%;
+  color: var(--dark-brown-color);
 }
 /* This is the css for all the photo section that puts them in rows */
 .facecontact {
@@ -10,12 +11,19 @@
 
   padding-bottom:1%;
 }
+.emailcontact{
+  margin-top: 4%;
+  padding-bottom:1%;
+}
 
 .snapcontact {
   margin-top: 4%;
   padding-bottom:1%;
 }
-
+.githubcontact{
+  margin-top: 4%;
+  padding-bottom:1%;
+}
 .instacontact {
   margin-top: 4%;
   padding-bottom:1%;
@@ -40,7 +48,11 @@
   color: var(--dark-brown-color);
   margin-left: 22%
 }
-
+.github{
+  position: absolute;
+  color: var(--dark-brown-color);
+  margin-left: 22%
+}
 .snapchat{
   position: absolute;
   color: var(--dark-brown-color);
@@ -54,7 +66,14 @@
 .discord{
   position: absolute;
   color: var(--dark-brown-color);
-  margin-left: 22%
+  margin-left: 22%;
+}
+
+.email{
+  position: absolute;
+  color: var(--dark-brown-color);
+  margin-left: 22%;
+
 }
 
 p {
@@ -66,7 +85,6 @@ p {
   background-color: var(--white);
   margin-top: 10%;
   height: 900px;
-
 }
 
 /* This is the title for the code */
@@ -91,4 +109,7 @@ text-align: center;
 
 .contactlist{
   margin-right:8%;
+}
+.email{
+  text-align: center;
 }

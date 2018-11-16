@@ -91,7 +91,12 @@
     margin-top: 4%;
     padding-bottom:1%;
   }
+  .email{
+    margin-top: 4%;
+    padding-bottom:1%;
+  }
  }
+
  /* This ajust's the title of the contact me page on the iphone */
  @media (max-width:500px) {
    .contact{
@@ -118,4 +123,10 @@
   .currentlife {
     margin-left: 22%;
   }
+}
+
+@media (Max-width:1200px) {
+  .Projects{
+
+
 }
