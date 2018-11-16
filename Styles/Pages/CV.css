@@ -1,0 +1,62 @@
+/* CSS tags for the table in the cv page */
+table, th, td {
+    border-color: var(--Deep-brown-color);
+    color: var(--dark-brown-color);
+        width: 60%;
+        height: 50px;
+        text-align: center;
+
+}
+tr:nth-child(even) {background-color: var(--lighter-brown-color);}
+
+h2{
+  text-align: center;
+  color: var(--dark-brown-color);
+  font-size: 30px;
+  padding-top: 10%;
+  margin-top: 10%;
+}
+
+.gradtable{
+  margin-left: 20%;
+  margin-top: 12%;
+}
+
+.wholecv{
+  background-color: rgba(244,241,237,0.9);
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+/* This is the ib section talking about my school grades  */
+
+.Theib{
+  margin-top: 8%;
+  color: var(--dark-brown-color);
+  font-size: 20px;
+  text-align: left;
+}
+h3{
+  color: var(--dark-brown-color);
+  font-size: 25px;
+  text-align: center;
+}
+
+h4 {
+  color: var(--dark-brown-color);
+  font-size: 35px;
+  text-align: center;
+
+}
+.experience1{
+  margin-top: 8%;
+  color: var(--dark-brown-color);
+  font-size: 30px;
+  text-align: left;
+
+}

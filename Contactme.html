@@ -1,17 +1,180 @@
+---
+title: "Contactme"
+---
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive-tablet.css">
-    <link rel="stylesheet" href="Website.css">
-    <title>Course workwebsite</title>
-  </head>
-  <body>
-    <nav>
-      <ul class="container">
-        <li ><a  href="Homepage.html">Home Page</a></li>
-        <li><a href="Project Page.html">Project Page</a></li>
-        <li><a href="CV Page.html">CV Page</a></li>
-        <li><a class="current" href="Contactme.html">Contact Me </a></li>
+
+<head>
+  <meta charset="utf-8">
+  <!--
+    Formatted for readability
+  -->
+  <meta name="viewport" content="
+      width=device-width,
+      initial-scale=1,
+      minimum-scale=1,
+      maximum-scale=1
+    " />
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Cuprum|Domine|Fascinate+Inline|Lobster|Merriweather|Playfair+Display+SC|Righteous|Roboto+Condensed|Roboto+Slab|Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive-tablet.css">
+  <link rel="stylesheet" href="Styles/Base/Reset.css">
+  <link rel="stylesheet" href="Styles/Abstract/Variables for colours.CSS">
+  <link rel="stylesheet" href="Styles/Pages/Home.css">
+  <link rel="stylesheet" href="Styles/Pages/Contact.css">
+  <link rel="stylesheet" href="Styles/Layout/Navigation.css">
+  <link rel="stylesheet" href="Styles/Pages/About.css">
+  <link rel="stylesheet" href="Styles/Abstract/Media import.css">
+  <title>Course workwebsite</title>
+</head>
+
+<!-- This is the main body and it is used to configure the background colour for the main page of the site-->
+
+<body>
+  <style media="screen">
+    body {
+      background-image: url(https://images.pexels.com/photos/861339/pexels-photo-861339.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: inherit;
+      background-attachment: fixed;
+    }
+  </style>
+  <div class="container">
+    <div class="header">
+      <header>
+        <h1>Deji Shote </h1>
+      </header>
+    </div>
+  </div>
+  <div class="navbackground">
+
+
+    <!--  This grid puts all the navbar into a container -->
+    <nav class="nav">
+      <ul class="grid-container">
+        <li class="grid-10 prefix-25 mobile-grid-20 tablet-grid-20"><a href="index.html">Home</a></li>
+        <li class="mobile-grid-20 grid-10 tablet-grid-20"><a href="Project Page.html">Project</a></li>
+        <li class="mobile-grid-20 grid-10 tablet-grid-20"><a href="CV Page.html">CV</a></li>
+        <li class=" current mobile-grid-20 grid-10 tablet-grid-20"><a href="Contactme.html">Contact Me </a></li>
+        <li class="mobile-grid-20 grid-10 tablet-grid-20"><a href="About me">About me</a></li>
       </ul>
     </nav>
+  </div>
+
+  <!-- This is the navbar for mobile. -->
+  <div class="drop">
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Menu</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="Project Page.html">Project</a>
+        <a href="CV Page.html">CV</a>
+        <a href="Contactme.html">Contact Me </a>
+        <a href="About me">About me</a>
+      </div>
+    </div>
+  </div>
+  <section class="table tablet-grid-100">
+    <div class="contactlist tablet-grid-100">
+      <h2 class="contact">Contact List</h2>
+    </div>
+    <div class="facecontact grid-container tablet-grid-100">
+      <div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100">
+        <div class="grid-20">
+          <p class=" Facebook "> Facebook</p>
+        </div>
+        <div class="grid-80">
+          <a href="https://www.facebook.com/junior.shote"><img src="photos/facebook-logo-button (2).png" height="34" width="34" class="social" alt="facebook"></a>
+        </div>
+      </div>
+    </div>
+    <div class="instacontact list grid-container tablet-grid-100">
+      <div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100 ">
+        <div class="grid-20">
+          <p class=" instagram "> Instagram</p>
+        </div>
+        <div class="grid-80">
+          <a href="https://www.instagram.com/"><img src="photos/instagram-logo.png" height="34" width="34" class="social" alt="instagram"></a>
+        </div>
+      </div>
+    </div>
+    <div class="snapcontact list grid-container tablet-grid-100">
+      <div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100">
+        <div class="grid-20">
+          <p class=" snapchat "> Snapchat</p>
+        </div>
+        <div class="grid-80">
+          <a href="https://cdn.discordapp.com/attachments/213806140016951297/512688380971188265/image.png"><img src="photos/Snapchat.png" height="34" width="34" class="social" alt="facebook"></a>
+        </div>
+      </div>
+      </div>
+      <div class="redcontact list grid-container tablet-grid-100">
+        <div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100">
+          <div class="grid-20">
+            <p class=" reddit "> Reddit</p>
+          </div>
+          <div class="grid-80">
+            <a href="https://www.reddit.com/"><img src="photos/reddit-alien-head-logo.png" height="34" width="34" class="social" alt="facebook"></a>
+          </div>
+        </div>
+      </div>
+      <div class="discordcontact list grid-container tablet-grid-100">
+        <div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100">
+          <div class="grid-20">
+            <p class=" discord "> Discord</p>
+          </div>
+          <div class="grid-80">
+            <a href="https://www.snapchat.com/add/gohaz933"><img src="photos/discord.png" height="34" width="34" class="social" alt="facebook"></a>
+          </div>
+        </div>
+      </div>
+      <div class="emailcontact list grid-container tablet-grid-100">
+        <div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100">
+          <div class="grid-20">
+          </div>
+          <div class="grid-80">
+            <p class="email">Ayodejishote@hotmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="githubcontact list grid-container tablet-grid-100">
+        <div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100">
+          <div class="grid-20">
+            <p class=" github "> Github</p>
+          </div>
+          <div class="grid-80">
+            <a href="https://github.com/deji09/deji09.github.io"><img src="photos/github-logo.png" height="34" width="34" class="social" alt="facebook"></a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+<!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+  <!--this is the link to the footer from jekyll-->
+  <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>  -->
+  {% include footer.html %}
+</body>
+</html>
+
+<script>
+  /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>

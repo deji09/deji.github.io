@@ -1,0 +1,39 @@
+.myprojects{
+  text-align: center;
+  color: var(--dark-brown-color);
+  padding-top: 8%;
+  font-size: 30px;
+
+}
+
+.pride{
+text-align: center;
+color: var(--dark-brown-color);
+padding-top: 4%;
+font-size: 20px;
+}
+
+.Projects{
+
+  background-color:var(--white);
+  margin-top: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* This is the css for the footer */
+footer{
+ background-color:var(--white);
+height:130px;
+
+position: inherit;
+text-align: center;
+}
+.Deji{
+  color:var(--dark-brown-color);
+  margin-top:100%;
+}
+h3{
+  text-align: center;
+  color: var(--dark-brown-color);
+}
