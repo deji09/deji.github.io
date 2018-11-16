@@ -12,7 +12,8 @@ th{
 }
 .myskills{
 text-align: center;
-width: 100%;
+width:100%;
+background-color: rgba(244,241,237,0.9);
 }
 tr:nth-child(even) {background-color: var(--lighter-brown-color);}
 
