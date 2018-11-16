@@ -126,7 +126,10 @@
 }
 
 @media (Max-width:1200px) {
-  .Projects{
+  .mobilestuff{
+}
 
-
+@media (min-width:1200px) {
+  .mobilestuff{
+    display: none;
 }
