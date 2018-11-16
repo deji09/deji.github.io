@@ -95,6 +95,12 @@
     margin-top: 4%;
     padding-bottom:1%;
   }
+  .myskills{
+  display: none;
+  }
+  .experience1{
+  padding-top: 1%;
+  }
  }
 
  /* This ajust's the title of the contact me page on the iphone */
@@ -129,10 +135,43 @@
   .mobiledig{
     display: none;
 }
+
 }
 @media (max-width:500px) {
 .experience1{
   font-size: 20px;
-
 }
+.wholecv{
+  background-color: rgba(244,241,237,0.9);
+  height: 1500px;
+  padding-bottom: 10%;
+}
+.Theib{
+  margin-top: 8%;
+  color: var(--dark-brown-color);
+  font-size: 13px;
+  text-align: left;
+}
+.experience1{
+  margin-top: 8%;
+  color: var(--dark-brown-color);
+  font-size: 13px;
+  text-align: left;
+}
+h3{
+  color: var(--dark-brown-color);
+  font-size: 20px;
+  text-align: center;
+}
+
+h4 {
+  color: var(--dark-brown-color);
+  font-size: 30px;
+  text-align: center;
+}
+.myskills{
+padding-top:10%;
+margin-left: 21%;
+}
+
 }
