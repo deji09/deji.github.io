@@ -71,41 +71,94 @@
   }
   .facecontact {
     margin-top: 4%;
-    font-size:10px;
     padding-bottom:8%;
+    margin-left: 10%;
   }
 
   .snapcontact {
     margin-top: 4%;
     padding-bottom:8%;
-    font-size:10px;
+    margin-left: 10%;
   }
 
   .instacontact {
     margin-top: 4%;
     padding-bottom:8%;
-    font-size:10px;
+    margin-left: 10%;
   }
   .redcontact{
     margin-top: 4%;
     padding-bottom:8%;
-    font-size:10px;
+    margin-left: 10%;
   }
   .discordcontact{
-    margin-top: 4%;
-    padding-bottom:1%;
-    font-size:10px;
+    margin-top: 1%;
+    padding-bottom:8%;
+    margin-left: 10%;
+  }
+  .githubcontact{
+    margin-top: 1%;
+    padding-bottom:8%;
+    margin-left: 10%;
+  }
+  .emailcontact{
+display: none;
   }
   .email{
-    margin-top: 1%;
-    padding-bottom:1%;
-    font-size:10px; 
+display: none;
   }
   .myskills{
   display: none;
   }
   .experience1{
-  padding-top: 1%;
+  padding-top: 60%;
+  }
+  .Facebook {
+    position: absolute;
+    color: var(--dark-brown-color);
+    margin-left: 0%;
+    font-size: 13px;
+  }
+
+  .instagram {
+    position:absolute;
+    color: var(--dark-brown-color);
+    margin-left: 0%;
+    font-size: 13px;
+
+  }
+  .github{
+    position:absolute;
+    color: var(--dark-brown-color);
+    margin-left: 0%;
+    font-size: 13px;
+
+  }
+  .snapchat{
+    position:absolute;
+    color: var(--dark-brown-color);
+    margin-left: 0%;
+    font-size: 13px;
+
+  }
+  .reddit{
+    position:absolute;
+    color: var(--dark-brown-color);
+    margin-left: 0%;
+    font-size: 13px;
+
+  }
+    .discord{
+    position:absolute;
+    color: var(--dark-brown-color);
+    margin-left: 0%;
+    font-size: 13px;
+
+  }
+
+  .email{
+display: none;
+
   }
  }
 
@@ -120,6 +173,7 @@
 @media (max-width:600px) {
   .currentlife {
     margin-left: 27%;
+
   }
 }
 
@@ -127,6 +181,7 @@
 @media (max-width:400px) {
   .currentlife {
     margin-left: 22%;
+    font-size:10px;
   }
 }
 
@@ -134,6 +189,7 @@
 @media (min-width:1200px) {
   .currentlife {
     margin-left: 22%;
+    font-size:10px;
   }
 }
 /* Method to display the projects and mobile and ipad */

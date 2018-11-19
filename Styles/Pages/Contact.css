@@ -40,39 +40,45 @@
 .Facebook {
   position: absolute;
   color: var(--dark-brown-color);
-  margin-left: 22%
+  margin-left: 25%;
+
 }
 
 .instagram {
   position: absolute;
   color: var(--dark-brown-color);
-  margin-left: 22%
+  margin-left:25%;
+
 }
 .github{
   position: absolute;
   color: var(--dark-brown-color);
-  margin-left: 22%
+  margin-left: 25%;
+
 }
 .snapchat{
   position: absolute;
   color: var(--dark-brown-color);
-  margin-left: 22%
+  margin-left: 25%;
+
 }
 .reddit{
   position: absolute;
   color: var(--dark-brown-color);
-  margin-left: 22%
+  margin-left: 25%;
+
 }
 .discord{
   position: absolute;
   color: var(--dark-brown-color);
-  margin-left: 22%;
+  margin-left: 25%;
+
 }
 
 .email{
   position: absolute;
   color: var(--dark-brown-color);
-  margin-left: 22%;
+  margin-left: 25%;
 
 }
 
