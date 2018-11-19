@@ -67,33 +67,39 @@
   }
   .contact{
     margin-right: 9%;
+
   }
   .facecontact {
     margin-top: 4%;
-
+    font-size:10px;
     padding-bottom:8%;
   }
 
   .snapcontact {
     margin-top: 4%;
     padding-bottom:8%;
+    font-size:10px;
   }
 
   .instacontact {
     margin-top: 4%;
     padding-bottom:8%;
+    font-size:10px;
   }
   .redcontact{
     margin-top: 4%;
     padding-bottom:8%;
+    font-size:10px;
   }
   .discordcontact{
     margin-top: 4%;
     padding-bottom:1%;
+    font-size:10px;
   }
   .email{
     margin-top: 1%;
     padding-bottom:1%;
+    font-size:10px; 
   }
   .myskills{
   display: none;
