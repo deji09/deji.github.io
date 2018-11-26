@@ -10,3 +10,5 @@ MLA for Background:“Landscape Photography of Wild Trees over Mountain.” Free
 
 
 My text an paragraphs apart from my CV page paragraph: https://loremipsum.io/.
+
+The java script is from https://www.w3schools.com/
